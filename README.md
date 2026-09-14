@@ -1,12 +1,12 @@
 # OmniSegment E-Commerce & Supply Chain Intelligence
 
-![Dashboard Preview](docs/dashboard_preview.png)
+![Dashboard Preview](doc/dashboard_preview.png)
 
 This repository contains an end-to-end data engineering and analytics pipeline designed to optimize e-commerce supply chain operations. By processing massive relational datasets, generating time-series forecasts, and integrating an autonomous AI agent, this project bridges the gap between raw transaction records and actionable procurement strategies.
 
 ## Project Architecture
 
-![Pipeline Architecture](docs/pipeline.png)
+![Pipeline Architecture](doc/pipeline.png)
 
 * **ETL Pipeline:** Built with **PySpark** and **Pandas** to process millions of rows from the Olist e-commerce dataset, seamlessly joining orders, geolocation data, payments, and product dimensions into a clean master schema.
 * **Predictive Modeling:** Utilizes the **SARIMA** algorithm (via `statsmodels`) to generate a rolling 30-day demand forecast based on historical daily sales volume.

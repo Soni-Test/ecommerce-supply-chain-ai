@@ -1,0 +1,12 @@
+# Environments
+.env
+
+# Data files
+*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Spark logs
+spark-warehouse/
